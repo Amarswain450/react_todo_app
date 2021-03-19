@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo{
+  width: 350px;
+  height: 350px;
+  background: gray;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 20px;
+}
+
+.todo-input{
+  padding: 10px;
+  margin: 10px 16px;
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.todo-body{
+  list-style: none;
+  width: 300px;
+  margin: 10px auto;
+  font-size: 17px;
+  color: white;
+}
+
+.todo-body li{
+  margin: 15px auto;
+}
+
+.todo-pencil{
+  color: green;
+  cursor: pointer;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.todo-trash{
+  color: red;
+  cursor: pointer;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.update{
+  background: orange;
+  color: white;
+}
